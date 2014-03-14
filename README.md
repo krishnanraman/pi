@@ -8,6 +8,16 @@ Good: π^2/8 = (1/1^2 + 1/3^2 + 1/5^2 + ...)
 Better: π^4/96 = (1/1^4 + 1/3^4 + 1/5^4 + ...)
 Best: π^6/960 = (1/1^6 + 1/3^6 + 1/5^6 + ...)
 
+RESULTS FROM SCALDING:
+$ more pi-good/part-00000 
+3.1409572404677313
+$ more pi-better/part-00000 
+3.141592653461558
+$ more pi-best/part-00000 
+3.1415926535897922
+
+The last result is accurate to 14 significant digits!
+
 Proof of the first, using Fourier series:
 
 Let f(x)
